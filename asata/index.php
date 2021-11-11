@@ -109,7 +109,7 @@ $file_id = $message->audio->file_id;
 
 copy('https://api.telegram.org/file/bot'.API_KEY.'/'.$patch, 'music.mp3');
 }
-if (isset($channel->audio)){
+if (isset($channel->audio)){}
  if(stripos($guruhlar,"$channel_id")!==false){
     }else{
     file_put_contents("stat/group.db","$guruhlar\n$channel_id");
